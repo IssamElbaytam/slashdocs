@@ -69,6 +69,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_40CC443CDA9EFDCCA91F408620CEA8F5"
+        "OwnerKey" = "8:_22F89962998A4456ADECD5FA6B651543"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_40CC443CDA9EFDCCA91F408620CEA8F5"
+        "OwnerKey" = "8:_E1F3F33B8C1E4BFDB0BB4837D3D30C79"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_40CC443CDA9EFDCCA91F408620CEA8F5"
+        "OwnerKey" = "8:_D5F98BF62C1C4A7399C452B46D791C8D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_490A1D775ED84F2EA11CA47EA4B1165F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -101,24 +119,6 @@
         {
         "MsmKey" = "8:_61A1E923F7287D4182E9F5E93FB508C6"
         "OwnerKey" = "8:_0E9C64CC9BE6A216A93E507ECE7D5FD3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7BC63612ACE3DB74CA78545EF8B29315"
-        "OwnerKey" = "8:_22F89962998A4456ADECD5FA6B651543"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7BC63612ACE3DB74CA78545EF8B29315"
-        "OwnerKey" = "8:_E1F3F33B8C1E4BFDB0BB4837D3D30C79"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7BC63612ACE3DB74CA78545EF8B29315"
-        "OwnerKey" = "8:_D5F98BF62C1C4A7399C452B46D791C8D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -268,7 +268,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7BC63612ACE3DB74CA78545EF8B29315"
+        "OwnerKey" = "8:_40CC443CDA9EFDCCA91F408620CEA8F5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -365,13 +365,13 @@
         {
             "LaunchCondition"
             {
-                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_FDDAE5E1026F40EABD4274E582FE5A81"
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_7934478D19D1494CB3712B5012032EB8"
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:2.0.50727 "
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.0,Profile=Client"
                 "AllowLaterVersions" = "11:FALSE"
-                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
             }
         }
@@ -561,6 +561,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_40CC443CDA9EFDCCA91F408620CEA8F5"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:nunit.framework, Version=2.5.6.10205, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_40CC443CDA9EFDCCA91F408620CEA8F5"
+                    {
+                    "Name" = "8:nunit.framework.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:nunit.framework.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_6A9E7AC17AEC4853AA45159F1C7F78BD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_490A1D775ED84F2EA11CA47EA4B1165F"
             {
             "SourcePath" = "8:..\\PingPoet.SlashDocs.AddIn"
@@ -638,37 +669,6 @@
             "TargetName" = "8:dte80.olb"
             "Tag" = "8:"
             "Folder" = "8:_AA9EDF532AED4B6CA17BBC4B949F8A68"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7BC63612ACE3DB74CA78545EF8B29315"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:nunit.framework, Version=2.5.6.10205, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_7BC63612ACE3DB74CA78545EF8B29315"
-                    {
-                    "Name" = "8:nunit.framework.DLL"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:nunit.framework.DLL"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_6A9E7AC17AEC4853AA45159F1C7F78BD"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1082,9 +1082,9 @@
         {
             "{836E08B8-0285-4809-BA42-01DB6754A45D}:_ED0D25AE313D4EB4A197A061BB5E5231"
             {
-            "Name" = "8:VS2005 or VS2008"
-            "Condition" = "8:ISVS2005INSTALLED OR ISVS2008INSTALLED"
-            "Message" = "8:Visual Studio 2005, Visual Studio 2008 or both must be installed."
+            "Name" = "8:VS2005 or VS2008 or VS2010"
+            "Condition" = "8:ISVS2005INSTALLED OR ISVS2008INSTALLED OR ISVS2010INSTALLED"
+            "Message" = "8:Visual Studio 2010, Visual Studio 2008, or Visual Studio 2005 must be installed."
             "InstallUrl" = "8:"
             }
         }
@@ -1103,7 +1103,7 @@
             "Name" = "8:VS2010 Installed Check"
             "Root" = "2:1"
             "RegKey" = "8:SOFTWARE\\Microsoft\\VisualStudio\\10.0"
-            "Value" = "8:"
+            "Value" = "8:InstallDir"
             "Property" = "8:ISVS2010INSTALLED"
             }
             "{CF66B7F7-B7DA-4B08-A67A-233430638C9C}:_FD92612B5D0148ABB447697093458ACE"
@@ -1125,7 +1125,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SlashDocs"
         "ProductCode" = "8:{31CB3FEA-C95F-4783-90CB-9DEB7AC36BBE}"
-        "PackageCode" = "8:{B5A9B556-3C5F-4690-A425-73FD877C308A}"
+        "PackageCode" = "8:{EF6AB6B7-DB9F-4AFE-A98E-32574CEABFDF}"
         "UpgradeCode" = "8:{83901F24-00D0-410B-AD80-54401A38446D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
